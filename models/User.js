@@ -55,6 +55,12 @@ const UserSchema = new mongoose.Schema({
         type:Number,
         enum : [1, 2, 3]
     },
+    displayName:{
+        type:String,
+    },
+    dateOfBirth:{
+        type:Date,
+    },  
 },
 {timestamps:true}
 );
